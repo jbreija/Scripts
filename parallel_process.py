@@ -1,6 +1,9 @@
 import subprocess
 from multiprocessing import Pool, cpu_count
 
+# Answered on Stack Overflow
+# https://stackoverflow.com/questions/48953878/calling-multiple-instances-of-python-scripts-in-matlab-using-java-lang-runtime-g/49120453#49120453
+
 def multi_processor(function_name):
 
     # Use a regex to make a list of full paths for audio files in /some/directory
